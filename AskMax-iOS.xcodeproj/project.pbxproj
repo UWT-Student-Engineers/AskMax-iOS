@@ -13,6 +13,7 @@
 		FEE0464D1C63FE56005269B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE0464C1C63FE56005269B6 /* Assets.xcassets */; };
 		FEE046501C63FE56005269B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE0464E1C63FE56005269B6 /* LaunchScreen.storyboard */; };
 		FEE0465B1C63FE56005269B6 /* AskMax_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0465A1C63FE56005269B6 /* AskMax_iOSTests.swift */; };
+		FEE0466A1C640E04005269B6 /* common in Resources */ = {isa = PBXBuildFile; fileRef = FEE046691C640E04005269B6 /* common */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FEE046561C63FE56005269B6 /* AskMax-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AskMax-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE0465A1C63FE56005269B6 /* AskMax_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskMax_iOSTests.swift; sourceTree = "<group>"; };
 		FEE0465C1C63FE56005269B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE046691C640E04005269B6 /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = common; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		FEE046441C63FE56005269B6 /* AskMax-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FEE046691C640E04005269B6 /* common */,
 				FEE046451C63FE56005269B6 /* AppDelegate.swift */,
 				FEE046471C63FE56005269B6 /* ViewController.swift */,
 				FEE046491C63FE56005269B6 /* Main.storyboard */,
@@ -182,6 +185,7 @@
 				FEE046501C63FE56005269B6 /* LaunchScreen.storyboard in Resources */,
 				FEE0464D1C63FE56005269B6 /* Assets.xcassets in Resources */,
 				FEE0464B1C63FE56005269B6 /* Main.storyboard in Resources */,
+				FEE0466A1C640E04005269B6 /* common in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +394,7 @@
 				FEE046611C63FE56005269B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEE046621C63FE56005269B6 /* Build configuration list for PBXNativeTarget "AskMax-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +403,7 @@
 				FEE046641C63FE56005269B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
