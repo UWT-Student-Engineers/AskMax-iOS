@@ -1,0 +1,3 @@
+[submodule "AskMax-iOS/common"]
+	path = AskMax-iOS/common
+	url = https://github.com/UWT-Student-Engineers/AskMax-Common
