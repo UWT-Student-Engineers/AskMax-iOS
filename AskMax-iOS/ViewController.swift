@@ -8,9 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIWebViewDelegate {
+class ViewController: UIViewController, UIWebViewDelegate, UISearchBarDelegate {
     
     @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var searchBar: UISearchBar!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +36,10 @@ class ViewController: UIViewController, UIWebViewDelegate {
 
     func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
         print(error)
+    }
+    
+    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
+        print("woop woop")
     }
 }
 
