@@ -15,31 +15,26 @@ class ViewController: UIViewController, UIWebViewDelegate, UISearchBarDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        initMap()
+    }
+    
+    // Opens the AskMax-Common map in the web view.
+    func initMap() {
         let url = NSBundle.mainBundle().URLForResource("map", withExtension: "html", subdirectory: "common/html")
         let request = NSURLRequest(URL:url!)
         
         webView.delegate = self
         webView.loadRequest(request)
-        
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
+    // This function gets called when the web view finishes loading.
     func webViewDidFinishLoad(webView: UIWebView) {
-        print("finished loading")
-    }
-
-    func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
-        print(error)
+        searchBar.hidden = false
     }
     
+    // This function gets called every time the user changes the contents of the search bar.
     func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
-        print("woop woop")
+        print("Searching for " + searchText)
     }
 }
 
