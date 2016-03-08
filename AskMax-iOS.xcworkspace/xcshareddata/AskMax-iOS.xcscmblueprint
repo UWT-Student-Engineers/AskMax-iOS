@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "844ADE8C0090856F707DE934463A644CAE142188",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "49C72FDCC0F8E922A88FC39B3E942E7A46EC34B2" : 0,
+    "844ADE8C0090856F707DE934463A644CAE142188" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8884B806-9551-4980-84D8-78EE7842633C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "49C72FDCC0F8E922A88FC39B3E942E7A46EC34B2" : "AskMax-iOS\/AskMax-iOS\/common\/AskMax-Common\/",
+    "844ADE8C0090856F707DE934463A644CAE142188" : "AskMax-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AskMax-iOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AskMax-iOS.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/UWT-Student-Engineers\/AskMax-Common",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "49C72FDCC0F8E922A88FC39B3E942E7A46EC34B2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/UWT-Student-Engineers\/AskMax-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "844ADE8C0090856F707DE934463A644CAE142188"
+    }
+  ]
+}

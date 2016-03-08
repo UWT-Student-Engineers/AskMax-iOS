@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9D6555EC67C5A414B336163 /* Pods_AskMax_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0DFC68D237BEEBA66FAFD3 /* Pods_AskMax_iOS.framework */; };
 		FEE046461C63FE56005269B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE046451C63FE56005269B6 /* AppDelegate.swift */; };
 		FEE046481C63FE56005269B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE046471C63FE56005269B6 /* ViewController.swift */; };
 		FEE0464B1C63FE56005269B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE046491C63FE56005269B6 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		FEE046501C63FE56005269B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE0464E1C63FE56005269B6 /* LaunchScreen.storyboard */; };
 		FEE0465B1C63FE56005269B6 /* AskMax_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0465A1C63FE56005269B6 /* AskMax_iOSTests.swift */; };
 		FEE0466A1C640E04005269B6 /* common in Resources */ = {isa = PBXBuildFile; fileRef = FEE046691C640E04005269B6 /* common */; };
+		FEEF73491C8F8721003C246D /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF73461C8F8721003C246D /* Coordinate.swift */; };
+		FEEF734A1C8F8721003C246D /* DatabaseJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF73471C8F8721003C246D /* DatabaseJSON.swift */; };
+		FEEF734B1C8F8721003C246D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF73481C8F8721003C246D /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2970C4AE11184F8E2933CCB7 /* Pods-AskMax-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskMax-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AskMax-iOS/Pods-AskMax-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4FF3F572292306A997FF1FB6 /* Pods-AskMax-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskMax-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AskMax-iOS/Pods-AskMax-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9D0DFC68D237BEEBA66FAFD3 /* Pods_AskMax_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskMax_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE046421C63FE56005269B6 /* AskMax-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AskMax-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE046451C63FE56005269B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEE046471C63FE56005269B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +45,9 @@
 		FEE0465A1C63FE56005269B6 /* AskMax_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskMax_iOSTests.swift; sourceTree = "<group>"; };
 		FEE0465C1C63FE56005269B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEE046691C640E04005269B6 /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = common; sourceTree = "<group>"; };
+		FEEF73461C8F8721003C246D /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		FEEF73471C8F8721003C246D /* DatabaseJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseJSON.swift; sourceTree = "<group>"; };
+		FEEF73481C8F8721003C246D /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D6555EC67C5A414B336163 /* Pods_AskMax_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +69,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29B7E989F7F6DE468CA2EDE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2970C4AE11184F8E2933CCB7 /* Pods-AskMax-iOS.debug.xcconfig */,
+				4FF3F572292306A997FF1FB6 /* Pods-AskMax-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D10F4E04DBF89D90AF17DE97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D0DFC68D237BEEBA66FAFD3 /* Pods_AskMax_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FEE046391C63FE56005269B6 = {
 			isa = PBXGroup;
 			children = (
 				FEE046441C63FE56005269B6 /* AskMax-iOS */,
 				FEE046591C63FE56005269B6 /* AskMax-iOSTests */,
 				FEE046431C63FE56005269B6 /* Products */,
+				29B7E989F7F6DE468CA2EDE5 /* Pods */,
+				D10F4E04DBF89D90AF17DE97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				FEE046691C640E04005269B6 /* common */,
+				FEEF73451C8F870D003C246D /* model */,
 				FEE046451C63FE56005269B6 /* AppDelegate.swift */,
 				FEE046471C63FE56005269B6 /* ViewController.swift */,
 				FEE046491C63FE56005269B6 /* Main.storyboard */,
@@ -99,6 +130,16 @@
 			path = "AskMax-iOSTests";
 			sourceTree = "<group>";
 		};
+		FEEF73451C8F870D003C246D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FEEF73461C8F8721003C246D /* Coordinate.swift */,
+				FEEF73471C8F8721003C246D /* DatabaseJSON.swift */,
+				FEEF73481C8F8721003C246D /* Location.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEE0465F1C63FE56005269B6 /* Build configuration list for PBXNativeTarget "AskMax-iOS" */;
 			buildPhases = (
+				03A4547E23BC756E65F097F3 /* Check Pods Manifest.lock */,
 				FEE0463E1C63FE56005269B6 /* Sources */,
 				FEE0463F1C63FE56005269B6 /* Frameworks */,
 				FEE046401C63FE56005269B6 /* Resources */,
+				89B3C3AB30FCBA5C21FB0BAF /* Embed Pods Frameworks */,
+				431550A00B7DC7DA34B4ABDF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,13 +242,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03A4547E23BC756E65F097F3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		431550A00B7DC7DA34B4ABDF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AskMax-iOS/Pods-AskMax-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89B3C3AB30FCBA5C21FB0BAF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AskMax-iOS/Pods-AskMax-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FEE0463E1C63FE56005269B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEEF734A1C8F8721003C246D /* DatabaseJSON.swift in Sources */,
 				FEE046481C63FE56005269B6 /* ViewController.swift in Sources */,
+				FEEF734B1C8F8721003C246D /* Location.swift in Sources */,
 				FEE046461C63FE56005269B6 /* AppDelegate.swift in Sources */,
+				FEEF73491C8F8721003C246D /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +426,7 @@
 		};
 		FEE046601C63FE56005269B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2970C4AE11184F8E2933CCB7 /* Pods-AskMax-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "AskMax-iOS/Info.plist";
@@ -342,6 +438,7 @@
 		};
 		FEE046611C63FE56005269B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF3F572292306A997FF1FB6 /* Pods-AskMax-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "AskMax-iOS/Info.plist";
